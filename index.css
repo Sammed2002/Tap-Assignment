@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #00796b;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin: 20px 0;
+  border: 2px solid #ccc;
+}
+
+#networkStatus, #locationStatus {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.tips {
+  background: #e0f2f1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.tip {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  margin-bottom: 10px;
+}
+
+.tip.visible {
+  opacity: 1;
+}
